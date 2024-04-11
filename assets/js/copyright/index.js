@@ -18,8 +18,6 @@ document.addEventListener("keydown", (e) => {
   e.ctrlKey && "p" == e.key && (alert("This section is not allowed to print or export to PDF"), (e.cancelBubble = !0), e.preventDefault(), e.stopImmediatePropagation());
 });
 
-const myurl = "cusmedroid.github.io";
-
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("cpr").innerHTML = year;
@@ -28,7 +26,7 @@ function isInList(hostname) {
   return true;
 }
 
-if (isInList(window.location.hostname) == myurl) {
+if (isInList(window.location.hostname)) {
   // alert("Sukses");
 } else {
   alert("Buy source");
