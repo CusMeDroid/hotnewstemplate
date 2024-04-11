@@ -28,9 +28,11 @@ function isInList(hostname) {
   return true;
 }
 
+console.log(window.location.hostname);
+
 if (isInList(window.location.hostname) == myurl) {
   alert("Sukses");
 } else {
   alert("Buy source");
-  window.location.href = "https://api.whatsapp.com/send?phone=6285772757932&text=Hello,%20I%20Need%20Source%20Code%20Hot%20News%20Template.";
+  // window.location.href = "https://api.whatsapp.com/send?phone=6285772757932&text=Hello,%20I%20Need%20Source%20Code%20Hot%20News%20Template.";
 }
