@@ -39,7 +39,7 @@ Hot News Template is a template with a contemporary elegant appearance with mini
 # Clone
 Select your directory location
 ```
-$ cd '/c/Users/YOUR USERNAME HERE/ 'My Project'
+cd '/c/Users/YOUR USERNAME HERE/ 'My Project'
 ```
 
 Download git
