@@ -18,7 +18,7 @@ document.addEventListener("keydown", (e) => {
   e.ctrlKey && "p" == e.key && (alert("This section is not allowed to print or export to PDF"), (e.cancelBubble = !0), e.preventDefault(), e.stopImmediatePropagation());
 });
 
-const myurl = "https://cusmedroid.github.io/hotnewstemplate/"
+const myurl = "https://cusmedroid.github.io/hotnewstemplate/";
 
 const d = new Date();
 let year = d.getFullYear();
