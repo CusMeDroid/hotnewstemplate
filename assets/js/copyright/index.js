@@ -21,14 +21,3 @@ document.addEventListener("keydown", (e) => {
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("cpr").innerHTML = year;
-
-function isInList(hostname) {
-  return true;
-}
-
-if (isInList(window.location.hostname)) {
-  // alert("Sukses");
-} else {
-  alert("Buy source");
-  window.location.href = "https://api.whatsapp.com/send?phone=6285772757932&text=Hello,%20I%20Need%20Source%20Code%20Hot%20News%20Template.";
-}
