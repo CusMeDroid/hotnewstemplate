@@ -291,6 +291,28 @@ main {
     color: white;
 }
 
+.mpf1 {
+    display: flex;
+}
+
+.mpf1 img {
+    width: 96px;
+    height: 96px;
+    margin-right: 4px;
+}
+
+.mpf2 {
+    padding-left: 4px;
+    border-left: 1px solid #000;
+    overflow: hidden;
+}
+
+.mpf2 a {
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
 footer {
     text-align: center;
 }
@@ -313,5 +335,10 @@ footer {
     }
     .footer {
         font-size: 12px !important;
+    }
+    .mpf1 img {
+        width: 56px;
+        height: 56px;
+        margin-right: 4px;
     }
 }
