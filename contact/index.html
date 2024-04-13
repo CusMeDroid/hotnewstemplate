@@ -45,24 +45,24 @@
         <h1 class="x-nowarp"><a href="">Contact</a></h1>
         <span>Home > Contact</span>
         <hr />
-        <form>
+        <div>
           <div class="input-container">
             <i class="fa fa-user icon"></i>
-            <input class="input-field" type="text" placeholder="Username" name="usrnm">
+            <input class="input-field" type="text" id="username" placeholder="Username" name="username">
           </div>
 
           <div class="input-container">
             <i class="fa fa-envelope icon"></i>
-            <input class="input-field" type="text" placeholder="Email" name="email">
+            <input class="input-field" type="text" id="email" placeholder="Email" name="email">
           </div>
           
           <div class="input-container">
             <i class="fa fa-file-text icon"></i>
-            <textarea class="input-field" rows="8" placeholder="Write something..." name="subject"></textarea>
+            <textarea class="input-field" rows="8" id="subject" placeholder="Write something..." name="subject"></textarea>
           </div>
 
-          <button type="submit" class="btn">Send</button>
-        </form>
+          <button type="submit" onclick="mContact()" class="btn">Send</button>
+        </div>
       </section>
       <footer class="mcard mb20">
         <p class="lolicon">
@@ -74,6 +74,7 @@
         <p class="footer"><b>Copyright</b> <b id="cpr"></b> - <a href="">CusMeDroid</a>.<br />All Rights Reserved.</p>
       </footer>
     </main>
+    <script type="text/javascript" src="../assets/js/contact/index.js"></script>
     <script type="text/javascript" src="../assets/js/copyright/index.js"></script>
   </body>
 </html>
